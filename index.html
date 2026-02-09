@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="title">Happy Valentine's Day</h1>
+                <p class="subtitle">A celebration of love and affection</p>
+                <div class="heart-animation">❤️</div>
+            </div>
+            <div class="floating-hearts"></div>
+        </header>
+
+        
+        <section class="gallery">
+            <h2 class="section-title">Moments of Love</h2>
+            <div class="image-grid">
+                <div class="image-card" data-category="romantic">
+                    <img src="images/1.png" alt="Romantic moment 1" loading="lazy">
+                    <div class="image-overlay">
+                        <p>Forever & Always</p>
+                        <div class="image-actions">
+                            <button class="action-btn like-btn">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-card" data-category="cute">
+                    <img src="images/2.png" alt="Romantic moment 2" loading="lazy">
+                    <div class="image-overlay">
+                        <p>Love is in the Air</p>
+                        <div class="image-actions">
+                            <button class="action-btn like-btn">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-card" data-category="memories">
+                    <img src="images/3.png" alt="Romantic moment 3" loading="lazy">
+                    <div class="image-overlay">
+                        <p>Together Forever</p>
+                        <div class="image-actions">
+                            <button class="action-btn like-btn">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-card" data-category="romantic">
+                    <img src="images/4.png" alt="Romantic moment 4" loading="lazy">
+                    <div class="image-overlay">
+                        <p>My Valentine</p>
+                        <div class="image-actions">
+                            <button class="action-btn like-btn">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-card" data-category="cute">
+                    <img src="images/5.png" alt="Romantic moment 5" loading="lazy">
+                    <div class="image-overlay">
+                        <p>Endless Love</p>
+                        <div class="image-actions">
+                            <button class="action-btn like-btn">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-card" data-category="memories">
+                    <img src="images/6.png" alt="Romantic moment 6" loading="lazy">
+                    <div class="image-overlay">
+                        <p>Sweet Memories</p>
+                        <div class="image-actions">
+                            <button class="action-btn like-btn">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-card" data-category="romantic">
+                    <img src="images/7.png" alt="Romantic moment 7" loading="lazy">
+                    <div class="image-overlay">
+                        <p>Perfect Match</p>
+                        <div class="image-actions">
+                            <button class="action-btn like-btn">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-card" data-category="cute">
+                    <img src="images/8.png" alt="Romantic moment 8" loading="lazy">
+                    <div class="image-overlay">
+                        <p>Couple Goals</p>
+                        <div class="image-actions">
+                            <button class="action-btn like-btn">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-card" data-category="memories">
+                    <img src="images/9.png" alt="Romantic moment 9" loading="lazy">
+                    <div class="image-overlay">
+                        <p>Love Story</p>
+                        <div class="image-actions">
+                            <button class="action-btn like-btn">❤️</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="messages">
+            <h2 class="section-title">Love Messages</h2>
+            <div class="message-container">
+                <div class="message-card">
+                    <div class="message-icon">💝</div>
+                    <h3>For My Love</h3>
+                    <p>Every moment with you is a treasure. You make my world brighter and my heart fuller.</p>
+                </div>
+                <div class="message-card">
+                    <div class="message-icon">🌹</div>
+                    <h3>Roses are Red</h3>
+                    <p>Violets are blue, sugar is sweet, and so are you!</p>
+                </div>
+                <div class="message-card">
+                    <div class="message-icon">💕</div>
+                    <h3>Forever Yours</h3>
+                    <p>In this journey of life, you're my favorite destination. Happy Valentine's Day!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive">
+            <h2 class="section-title">Create Your Message</h2>
+            <div class="message-creator">
+                <input type="text" id="recipientName" placeholder="Enter your Valentine's name..." maxlength="30">
+                <textarea id="customMessage" placeholder="Write your heartfelt message..." maxlength="200"></textarea>
+                <button id="generateMessage" class="btn-primary">Generate Valentine Card</button>
+                <div id="generatedCard" class="generated-card hidden">
+                    <div class="card-content">
+                        <h3 id="cardRecipient"></h3>
+                        <p id="cardMessage"></p>
+                        <span class="card-signature">With love, ❤️</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Made by ketan for Valentine's Day 2026</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Share the Love</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
